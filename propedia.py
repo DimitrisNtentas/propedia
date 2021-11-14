@@ -9,9 +9,9 @@ for n in factors:
     while wrong:
         question = f"{n} x {number} = "
         answer = input(question)
-        if answer == "q": exit()
+        if answer == "f": exit()
         if int(answer) == (n * int(number)):
-            print('Μπράβο!')
+            print('Μπράβο, πολύ σωστά!')
             wrong = False
         else:
-            print('Δοκίμασε ξανά')
+            print('Λάθος απάντηση. Δοκίμασε ξανά')
